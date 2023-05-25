@@ -1,0 +1,92 @@
+.header-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/imgs/familia-bg-image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-title {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        120deg,
+        rgba(0, 0, 0, 0.664) 60%,
+        rgba(255, 255, 255, 0.432) 100%
+    );
+    z-index: 1;
+}
+
+.menu {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    bottom: 100px;
+    z-index: 100;
+}
+
+.btn-lowBox {
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 3px rgb(97, 97, 97);
+    padding: 3px 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-lowBox:hover {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 2px 6px rgb(173, 173, 173);
+}
+
+.btn-lowBox-INGRESAR {
+    background-color: rgba(10, 72, 114, 0.61);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 3px rgb(97, 97, 97);
+    padding: 3px 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-lowBox-INGRESAR:hover {
+    background-color: rgba(255, 255, 255, 0.671);
+    color: rgb(3, 45, 73);
+}
+
+.lowBox-menu {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.507);
+    gap: 20px;
+    padding: 20px 80px;
+    padding-right: 220px;
+    box-shadow: -2px 2px 6px rgba(185, 185, 185, 0.767), -2px 2px 15px rgba(177, 177, 177, 0.829), -2px 2px 28px rgb(255, 255, 255);
+    border-bottom-left-radius: 40px;
+}
+
+.title {
+    color: white;
+    font-size: 35px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    text-shadow: 0 2px 6px black, -2px 2px 6px rgb(0, 0, 0), -2px 2px 35px rgb(255, 255, 255);
+}
+
+/* Animación del Título Bienvenida */
+.titleBox .title {
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
